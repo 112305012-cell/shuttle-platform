@@ -1,70 +1,18 @@
-<!doctype html>
+
+<!DOCTYPE html>
 <html lang="zh-Hant">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>接駁協調平台 — Gov&Private Shuttle Hub</title>
-  <meta name="description" content="即時監控政府接駁巴士運行情況並通知合作民間車隊快速調度替代車輛，確保貴賓準時抵達。" />
-  <style>
-    :root{
-      --bg:#FBFBFF;
-      --card:#FFFFFF;
-      --muted:#6B7280;
-      --accent:#7DD3FC;
-      --accent-2:#FFD6E0;
-      --radius:16px;
-      --shadow: 0 8px 24px rgba(16,24,40,0.06);
-      font-family: "Noto Sans TC", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
-    }
-    *{box-sizing:border-box}
-    body{
-      margin:0;
-      background: linear-gradient(180deg, #FBFDFF 0%, #FFFDF6 100%);
-      color:#111827;
-      line-height:1.5;
-    }
-    .container{max-width:1080px;margin:32px auto;padding:0 20px;}
-    header{display:flex;align-items:center;justify-content:space-between;gap:16px}
-    .brand{display:flex;align-items:center;gap:12px}
-    .logo-wrap{
-      width:64px;height:64px;border-radius:14px;background:linear-gradient(135deg,var(--accent),var(--accent-2));display:flex;align-items:center;justify-content:center;box-shadow:var(--shadow)
-    }
-    .logo-wrap svg{width:42px;height:42px;}
-    h1{font-size:28px;margin:0}
-    p.lead{color:var(--muted);margin:8px 0 0}
-    .btn{
-      background:#0F172A;color:white;padding:10px 16px;border-radius:12px;border:0;font-weight:600;cursor:pointer;
-      box-shadow:0 6px 20px rgba(15,23,42,0.08)
-    }
-    .btn.ghost{background:transparent;color:#0F172A;border:1px solid rgba(15,23,42,0.06)}
-  </style>
+<meta charset="UTF-8">
+<title>接駁協調平台首頁</title>
+<link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <div class="container">
-    <header>
-      <div class="brand">
-        <div class="logo-wrap" aria-hidden="true">
-          <svg viewBox="0 0 24 24" fill="none">
-            <rect x="2" y="4" width="20" height="12" rx="3" fill="white" />
-            <circle cx="8" cy="17" r="1.6" fill="#7DD3FC" />
-            <circle cx="16" cy="17" r="1.6" fill="#FFD6E0" />
-          </svg>
-        </div>
-        <div>
-          <h1>接駁協調平台</h1>
-          <p class="lead">政府巴士即時監控 × 私部門快速調度</p>
-        </div>
-      </div>
-    </header>
-
-    <main style="margin-top:24px;">
-      <h2>歡迎來到接駁協調平台！</h2>
-      <p>這是您的可愛風格首頁示範版。</p>
-    </main>
-
-    <footer style="margin-top:40px;color:#6B7280;font-size:14px;text-align:center;">
-      © 2025 接駁協調平台
-    </footer>
-  </div>
+<h1>接駁協調平台</h1>
+<p>我們協助政府與私人接駁車隊協調，確保貴賓安全準時抵達目的地。</p>
+<nav>
+  <a href="about.html">關於我們</a> |
+  <a href="contact.html">聯絡我們</a> |
+  <a href="dashboard.html">監控看板</a>
+</nav>
 </body>
 </html>
